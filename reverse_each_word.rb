@@ -13,3 +13,5 @@ def reverse_each_word(sentence2)
 end
 backward_sentence.join(' ')
 end
+
+reverse_each_word(sentence1)

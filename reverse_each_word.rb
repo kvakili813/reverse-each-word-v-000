@@ -3,5 +3,5 @@ def reverse_each_word(sentence1)
   sentence1.split.each do |word|
     backward_sentence << word.reverse
 end
-backward_sentence.join
+backward_sentence.join(', ')
 end
